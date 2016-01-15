@@ -25,7 +25,7 @@ public class Splash extends Activity {
         Thread timer = new Thread(){
             public void run(){
                 try{
-                    sleep(6000);
+                    sleep(5000);
 
                     synchronized (this) {
                         while (flaga) {
